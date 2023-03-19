@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+@keyframes animatedArrow {
+  0% , 20% , 40% , 60% , 100%{
+    transform: translateY(0px);
+  }30%{
+    transform: translateY(10px);
+  }50%{
+    transform: translateY(6px);
+  }80%{
+    transform: translateY(3px);
+  }
+}
